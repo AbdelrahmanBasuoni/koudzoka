@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow-x: clip;
+}
+.one::after{
+    position: absolute;
+    content: "";
+    height: 134vh;
+    width: 100%;
+    background-image: url(img/blue_bg.png);
+    top: -300px;
+    left: 0px;
+}
+
+.naffbar{
+    top: 1em;
+    left: 5em;
+    position: absolute;
+}
+
+.anker{
+    position: absolute;
+    top: 28px;
+    left: 8em;
+    color: gray;
+    font-size: 21px;
+}
+
+.server{
+    position: relative;
+    left: 126px;
+    top: -23px;
+}
+
+.about{
+    position: absolute;
+    top: 1px;
+    left: 261px;
+    width: 82px;
+}
+
+.help{
+    position: absolute;
+    top: 1px;
+    left: 426px;
+    width: 103px;
+}
+ 
+
+button{
+    position: absolute;
+    top: 26px;
+    width: 86px;
+    height: 39px;
+    right: 74px;
+    background-color: wheat;
+    color: gray;
+    border: 3px white solid;
+    border-radius: 23px;
+    font-size: 20px;
+}
+
+.img1{
+    position: absolute;
+    width: 20em;
+    left: 59em;
+    top: 3em;
+    z-index: 10;
+}
+
+.img2{
+    position: absolute;
+    width: 52em;
+    left: 47em;
+    top: 1em;
+    z-index: 1;
+}
+
+.img3{
+    position: absolute;
+    width: 25em;
+    left: 57em;
+    top: 31em;
+    z-index: 11;
+}
+
+.img4{
+    position: absolute;
+    width: 82em;
+    left: -8em;
+    top: 36em;
+    z-index: 10;
+}
+
+.midil{
+    position: absolute;
+    top: 9em;
+    left: 4em;
+    font-size: 31px;
+    color: grey;
+    width: 623px;
+}
+ 
+.deliv{
+    display: inline-block ;
+    color: darkmagenta;
+}
+
+.h2{
+    font-size: 60px;
+}
+
+.img5{
+    position: absolute;
+    width: 15em;
+    left: 13em;
+    top: 53em;
+    z-index: 10;
+}
+
+.para5{
+    position: absolute;
+    left: 11em;
+    top: 45em;
+    font-size: 23px;
+}
+
+.p5{
+    position: absolute;
+    left: -2em;
+    top: 2em;
+    width: 16em;
+}
+.p51{
+    position: absolute;
+    left: -3em;
+    top: 3em;
+    width: 17em;
+}
+
+
+.img6{
+    position: absolute;
+    width: 15em;
+    left: 42em;
+    top: 67em;
+    z-index: 10;
+}
+
+.para6{
+    position: absolute;
+    left: 30em;
+    top: 55em;
+    font-size: 23px;
+}
+
+.p6{
+    position: absolute;
+    left: -5em;
+    top: 2em;
+    width: 20em;   
+}
+
+.p61{
+    position: absolute;
+    left: -3em;
+    top: 3em;
+    width: 17em;
+}
+
+.img7{
+    position: absolute;
+    width: 15em;
+    left: 66em;
+    top: 82em;
+    z-index: 10;
+}
+
+.para7{
+    position: absolute;
+    left: 49em;
+    top: 64em;
+    font-size: 23px;
+}
+
+.p7{
+    position: absolute;
+    left: -6em;
+    top: 2em;
+    width: 19em;
+}
+
+.p71{
+    position: absolute;
+    left: -148px;
+    top: 3em;
+    width: 20em;
+}
+
+.img8{
+    position: absolute;
+    left: 22em;
+    top: 53em;
+    z-index: 3;
+    width: 62em;
+}
+
+.img9{
+    position: absolute;
+    left: 11em;
+    top: 84em;
+    width: 22em;
+}
+
+.why{
+    position: absolute;
+    top: 72em;
+    left: 13em;
+    color: white;
+    font-size: 20px;
+}
+
+.kudz{
+    position: absolute;
+    top: 1473px;
+    left: 263px;
+    color: white;
+    font-size: 41px;
+}
+
+.img10{
+    position: absolute;
+    left: 33em;
+    top: 110em;
+    width: 27em;
+}
+
+.img11{
+    position: absolute;
+    left: 13em;
+    top: 118em;
+    width: 13em;
+}
+
+.img12{
+    position: absolute;
+    left: 70em;
+    top: 119em;
+    width: 12em;
+}
+
+.img13{
+    position: absolute;
+    left: 29em;
+    top: 129em;
+    width: 2em;
+}
+
+.img14{
+    position: absolute;
+    left: 65em;
+    top: 129em;
+    width: 2em;
+}
+
+.para10{
+    position: absolute;
+    left: 39em;
+    top: 132em;
+    font-size: 16px;
+}
+
+.p10{
+    position: absolute;
+    left: 0em;
+    top: 2em;
+    width: 252px;
+    font-size: 21px;
+}
+.p11{
+    position: absolute;
+    left: 2em;
+    top: 90px;
+    width: 252px;
+    font-size: 21px;
+}
+
+.end{
+    position: absolute;
+    top: 142em;
+    left: 0px;
+    width: 100%;
+    height: 31em;
+    overflow-y: clip;
+    overflow-x: clip;
+}
+
+.img15{
+    position: absolute;
+    top: -7em;
+    left: -3em;
+    width: 106em;
+}
+
+.img16{
+    position: absolute;
+    top: 3em;
+    left: 46em;
+    width: 678px;
+}
+
+.img17{
+    position: absolute;
+    top: 19em;
+    left: 17em;
+    width: 7em;
+}
+
+.img18{
+    position: absolute;
+    top: 19em;
+    left: 8em;
+    width: 7em;
+}
+
+.img19{
+    position: absolute;
+    top: 310px;
+    left: 18em;
+    width: 17px;
+}
+
+.p19{
+    position: absolute;
+    top: 310px;
+    left: 309px;
+    color: gray;
+    font-size: 16px;
+}
+
+.img20{
+    position: absolute;
+    top: 312px;
+    left: 9em;
+    width: 17px;
+}
+.p20{
+    position: absolute;
+    top: 310px;
+    left: 165px;
+    color: gray;
+    font-size: 16px;
+}
+
+.img21{
+    position: absolute;
+    top: 363px;
+    left: 8em;
+    width: 24px;
+}
+
+.img22{
+    position: absolute;
+    top: 360px;
+    left: 211px;
+    width: 17px;
+}
+
+.img23{
+    position: absolute;
+    top: 363px;
+    left: 170px;
+    width: 23px;
+}
+
+.ankerend{
+    position: absolute;
+    top: 420px;
+    left: 128px;
+    font-size: 26px;
+    color: white;
+}
+
+.server2{
+    position: absolute;
+    top: 0px;
+    left: 124px;
+}
+
+.about2{
+    position: absolute;
+    top: 0px;
+    left: 252px;
+    width: 101px;
+}
+
+.help2{
+    position: absolute;
+    top: 0px;
+    left: 410px;
+    width: 127px;
+}
